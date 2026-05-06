@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Homemade Cravings Bakery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">Homemade Cravings</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="order.html">Order Now</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <a href="#" class="login-btn">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="section" style="background: var(--bg-cream); text-align: center; padding: 60px 0;">
+        <div class="container">
+            <h1 style="font-size: 3.5rem; color: var(--primary);">Our Full Menu</h1>
+            <p>Freshly baked every morning with the finest ingredients.</p>
+        </div>
+    </section>
+
+    <!-- Menu Sections -->
+    <section class="section">
+        <div class="container">
+            
+            <div class="section-title">
+                <h2>Signature Cakes</h2>
+            </div>
+            <div class="product-grid" style="margin-bottom: 80px;">
+                <div class="product-card">
+                    <img src="cake.png" alt="Signature Chocolate Layer Cake" class="product-image">
+                    <div class="product-info">
+                        <h3>Chocolate Layer Cake</h3>
+                        <p>Rich ganache and moist layers.</p>
+                        <div class="product-footer"><span class="price">$45.00</span><button class="add-btn">Add to Cart</button></div>
+                    </div>
+                </div>
+                <!-- Add more cakes if needed -->
+            </div>
+
+            <div class="section-title">
+                <h2>Artisanal Pies</h2>
+            </div>
+            <div class="product-grid" style="margin-bottom: 80px;">
+                <div class="product-card">
+                    <img src="pie.png" alt="Classic Apple Lattice Pie" class="product-image">
+                    <div class="product-info">
+                        <h3>Apple Lattice Pie</h3>
+                        <p>Spiced apples in a flaky crust.</p>
+                        <div class="product-footer"><span class="price">$28.00</span><button class="add-btn">Add to Cart</button></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title">
+                <h2>Treats & Scones</h2>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="cupcakes.png" alt="Gourmet Cupcakes" class="product-image">
+                    <div class="product-info">
+                        <h3>Gourmet Cupcakes</h3>
+                        <p>Pack of 6 assorted flavors.</p>
+                        <div class="product-footer"><span class="price">$18.00</span><button class="add-btn">Add to Cart</button></div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="scones.png" alt="Fresh Scones" class="product-image">
+                    <div class="product-info">
+                        <h3>Fresh Scones</h3>
+                        <p>Pack of 4 with jam & cream.</p>
+                        <div class="product-footer"><span class="price">$12.00</span><button class="add-btn">Add to Cart</button></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <p>Homemade Cravings Bakery is dedicated to bringing traditional baking back to the modern home.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Details</h4>
+                    <p>+1 (555) BAKED-4U</p>
+                    <p>hello@homemadecravings.com</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Inquiries</h4>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

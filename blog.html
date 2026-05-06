@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Homemade Cravings Bakery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">Homemade Cravings</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="order.html">Order Now</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <a href="#" class="login-btn">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="section" style="background: var(--bg-cream); text-align: center; padding: 60px 0;">
+        <div class="container">
+            <h1 style="font-size: 3.5rem; color: var(--primary);">Bakery Blog</h1>
+            <p>Tips, recipes, and stories from our kitchen.</p>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="section">
+        <div class="container">
+            <div class="blog-grid" style="grid-template-columns: 1fr;">
+                
+                <div class="blog-card" style="margin-bottom: 40px; flex-direction: row;">
+                    <img src="blog1.png" alt="Frosting Tips" class="blog-img" style="width: 400px; height: 300px;">
+                    <div class="blog-content">
+                        <span style="color: var(--secondary); font-weight: bold; font-size: 0.8rem;">MAY 5, 2026</span>
+                        <h3 style="font-size: 2rem;">Tips for the Perfect Frosting</h3>
+                        <p>Mastering the art of frosting is the key to turning a good cake into a masterpiece. In this guide, we walk you through the temperature secrets, whisking techniques, and flavoring tips that the professionals use...</p>
+                        <a href="#" class="read-more">Read Full Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card" style="margin-bottom: 40px; flex-direction: row-reverse;">
+                    <img src="blog2.png" alt="Grandma's Cookies" class="blog-img" style="width: 400px; height: 300px;">
+                    <div class="blog-content">
+                        <span style="color: var(--secondary); font-weight: bold; font-size: 0.8rem;">APRIL 28, 2026</span>
+                        <h3 style="font-size: 2rem;">My Grandma's Cookie Recipe</h3>
+                        <p>There is nothing quite like the smell of fresh cookies in the oven. This recipe has been passed down through three generations of our family, and today, we are finally sharing the secret ingredient with you...</p>
+                        <a href="#" class="read-more">Read Full Article →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div style="text-align: center; color: #A89090;">
+                © 2026 Homemade Cravings Bakery. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
